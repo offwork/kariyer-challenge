@@ -13,6 +13,14 @@
   }
 }
 
+.container-fluid {
+  .header-row {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +34,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.loading {
+  opacity: 0.5;
+}
+.custom-select {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 @keyframes App-logo-spin {
